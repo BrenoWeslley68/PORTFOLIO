@@ -1,0 +1,21 @@
+@media screen and (min-width:400px)and (max-width: 700px) {
+
+    nav#headbar{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        margin: 10px 0px 0px 0px;
+    }
+    li{
+        margin:10px 0px 0px 0px ;
+    }
+    article{
+        flex-wrap: wrap;
+    }
+    .main{
+        width: 200px;
+        
+    }
+    
+}

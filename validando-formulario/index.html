@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validando Formulário</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div id="requisitos">
+                <h1>Formulário de Cadastro</h1>
+                <p>
+                    <ul>
+                        <li id="nenhum">Nenhum campo pode estar vazio</li>
+                        <li id="us">Usuário só poderá conter letras e/ou números</li>
+                        <li id="usCaracteres">Usuário deverá ter entre 3 e 12 caracteres</li>
+                        <li id="linhacpf"> O CPF precisa ser válido </li>
+                        <li id="password">Senha precisa ter entre 6 e 12 caracteres incluindo especiais e Maiusculas</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome">
+                </p>
+                <p>
+                    <label for="isobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="isobrenome">
+                </p>
+                <p>
+                    <label for="icpf">CPF:</label>
+                    <input type="number" name="cpf" id="icpf">
+                </p>
+                <p>
+                    <label for="iusuario">Usuário</label>
+                    <input type="text" name="usuario" id="iusuario">
+                </p>
+                <p>
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha">
+                </p>
+                <p>
+                    <button id="cadastra">Cadastrar</button>
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
